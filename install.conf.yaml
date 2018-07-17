@@ -2,5 +2,10 @@
 
 - link:
     ~/.profile: profile
-
+    ~/.vimrc:
+      relink: true
+      path: vimrc
+    ~/.zshrc:
+      force: true
+      path: zshrc
 
